@@ -1,0 +1,25 @@
+.main {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  overflow-y: auto;
+}
+
+.main .card {
+  flex: 1;
+  background-color: var(--color-light-gray);
+  min-width: 200px;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  height: 280px;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .card .car-img {
+  width: 80%;
+}
