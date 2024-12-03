@@ -13,13 +13,33 @@
   border-radius: 16px;
   padding: 20px;
   display: flex;
-  height: 280px;
   flex-direction: column;
   gap: 20px;
   justify-content: center;
   align-items: center;
+  border: 2px solid var(--color-light-gray);
 }
 
 .main .card .car-img {
   width: 80%;
+}
+
+.main .card.border-red {
+  border-color: var(--color-light-red);
+}
+
+.main .card.border-blue {
+  border-color: var(--color-light-blue);
+}
+
+.main .card.border-orange {
+  border-color: var(--color-light-orange);
+}
+
+.main .card.border-green {
+  border-color: var(--color-light-green);
+}
+
+.main .card.border-gray {
+  border-color: var(--color-light-gray);
 }

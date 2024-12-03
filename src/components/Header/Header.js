@@ -1,9 +1,15 @@
 import "./Header.css";
 
-function Header({ colorCode }) {
+function Header({ colorCode, onOpenShoppingCart }) {
   const headerStyles = {
     backgroundColor: colorCode,
   };
+
+  function handleOpenShopingCart() {
+    if (onOpenShoppingCart) {
+      onOpenShoppingCart();
+    }
+  }
 
   return (
     <header className="header" style={headerStyles}>
@@ -13,6 +19,10 @@ function Header({ colorCode }) {
         alt="Car logo"
       />
       <h1 className="title">Rent-a-Car</h1>
+      <i
+        onClick={handleOpenShopingCart}
+        className="bi bi-cart3 fs-3 text-light ms-auto clickable"
+      ></i>
     </header>
   );
 }

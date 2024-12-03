@@ -17,6 +17,14 @@ code {
 
 :root {
   --color-blue: #004aad;
+  --color-light-blue: #b4d5ff;
+  --color-light-red: rgb(255, 151, 151);
+  --color-light-orange: rgb(255, 218, 150);
+  --color-light-green: rgb(182, 255, 182);
   --color-white: #fff;
   --color-light-gray: #e7e7e7;
+}
+
+.clickable {
+  cursor: pointer;
 }
