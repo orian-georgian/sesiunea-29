@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sesiunea-29/static/css/main.ca6c63f4.css",
+    "main.js": "/sesiunea-29/static/js/main.1a41f06a.js",
+    "static/media/bootstrap-icons.woff?": "/sesiunea-29/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/sesiunea-29/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "index.html": "/sesiunea-29/index.html",
+    "main.ca6c63f4.css.map": "/sesiunea-29/static/css/main.ca6c63f4.css.map",
+    "main.1a41f06a.js.map": "/sesiunea-29/static/js/main.1a41f06a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca6c63f4.css",
+    "static/js/main.1a41f06a.js"
+  ]
+}
